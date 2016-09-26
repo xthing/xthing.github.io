@@ -16,10 +16,19 @@
 
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: #000000;
                 margin: 0 auto;
+                margin-bottom: 20px;
                 display: flex;
-                padding: 10px;
+                padding: 5px;
+                -webkit-border-top-left-radius: 12px;
+				-webkit-border-top-right-radius: 12px;
+				-moz-border-radius-topleft: 12px;
+				-moz-border-radius-topright: 12px;
+				border-top-left-radius: 12px;
+				border-top-right-radius: 12px;
+				color: fff;
+                
             }
             nav header {
                 display: flex;
@@ -41,7 +50,11 @@
 
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+            	border-bottom:2px dashed #888;
+            	border-right:2px dashed #888;
+            	border-left:2px dashed #888;
+            	border-top:2px dashed #000000;
+                background: #ff0000;
                 display: flex;
             }
             [class=sidebar] {
