@@ -13,7 +13,9 @@
                 max-width: 800px;
                 margin: auto;
             }
+.content{
 
+}
             /* navigation menu */
             nav {
                 background: #000000;
@@ -56,6 +58,12 @@
             	border-top:2px dashed #000000;
                 background: #ff0000;
                 display: flex;
+	        	-webkit-border-bottom-right-radius: 6px;
+				-webkit-border-bottom-left-radius: 6px;
+				-moz-border-radius-bottomright: 6px;
+				-moz-border-radius-bottomleft: 6px;
+				border-bottom-right-radius: 6px;
+				border-bottom-left-radius: 6px;
             }
             [class=sidebar] {
                 margin-right: 25px;
